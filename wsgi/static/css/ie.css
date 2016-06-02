@@ -1,4 +1,3 @@
-
-/* -----------------for pie------------------- */
-
-.bg{ behavior: url(js/PIE.htc); }
+*+html{overflow:auto;}
+.box-shadow {behavior:url(js/PIE.htc); position:relative;}
+ 
