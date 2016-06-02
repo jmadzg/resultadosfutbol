@@ -1,7 +1,13 @@
-from bottle import route, default_app,run
+# -*- coding: utf-8 -*- 
+import requests
+import json
+from bottle import request, get, post, run, debug, route, template, error, TEMPLATE_PATH, default_app, static_file
+import bottle
 import os
 import mybottleapp
 application=default_app()
+
+
 
 
 
@@ -17,6 +23,19 @@ def nameindex(name='Stranger'):
 @route('/')
 def index():
     return '<strong>Hello World!</strong>'
+
+
+
+
+@route('/')
+def buscar():
+	return template('index.tpl')
+
+
+
+
+
+
 
 # This must be added in order to do correct path lookups for the views
 import os

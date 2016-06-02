@@ -17,27 +17,23 @@ q,
 s, samp, section, small, span, source, strike, strong, sub, sup,
 table, tbody, tfoot, thead, th, tr, tdvideo, tt,
 u, ul, 
-var {
-    background:transparent;
-    border:0 none;
-    font-size:100%;
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    vertical-align:top;
-}
+var{
+    background: transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+    vertical-align: top; }
 
-ol, 
-ul {
-	list-style:none;
+ol, ul {
+	list-style: none;
 }
-blockquote, 
-q {
-	quotes:none;
+blockquote, q {
+	quotes: none;
 }
-table, 
-table td { 
+table, table td { 
 	padding:0;
 	border:none;
 	border-collapse:collapse;
@@ -48,3 +44,4 @@ img {
 embed { 
 	vertical-align:top;
 }
+* { border:none}
