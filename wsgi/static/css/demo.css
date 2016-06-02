@@ -17,6 +17,6 @@
 .img-pags li a span{ display:block; background:#fff;}
 .img-pags li.active a,.img-pags li a:hover{border:#CCC 5px solid;}
 .img-pags li.active a img,.img-pags li a:hover img{}
-.prev {background:url(../images/prev-1.gif) 0 0 no-repeat; bottom:1px; left:1px; display:block; position:absolute; width:44px;height:44px; z-index:9999;}
-.next{background:url(../images/next-1.gif) 0 0 no-repeat; bottom:1px; right:1px; display:block; position:absolute; width:44px;height:44px; z-index:9999;}
+.prev {background:url(../static/images/prev-1.gif) 0 0 no-repeat; bottom:1px; left:1px; display:block; position:absolute; width:44px;height:44px; z-index:9999;}
+.next{background:url(../static/images/next-1.gif) 0 0 no-repeat; bottom:1px; right:1px; display:block; position:absolute; width:44px;height:44px; z-index:9999;}
 .prev:hover, .next:hover {background-position: 0 bottom;}

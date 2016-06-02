@@ -16,7 +16,7 @@
 }
 .pagination ul {margin:0px 0px 0 0;}
 .pagination li {float:left; margin:0 7px 0 0px; }
-.pagination li a {height:13px; width:13px; display:block; background:url(../images/pagination.png) right 0 no-repeat; }
+.pagination li a {height:13px; width:13px; display:block; background:url(../static/images/pagination.png) right 0 no-repeat; }
 .pagination li.current a {
 	background-position:left 0; 
 }
