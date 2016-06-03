@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="static/css/style.css">
     <link rel="stylesheet" type="text/css" media="screen" href="static/css/grid_12.css">
     <link rel="stylesheet" type="text/css" media="screen" href="static/css/slider.css">
+    <link href="static/images/favicon.ico" rel="icon" type="image/x-icon" />
     <script src="static/js/jquery-1.7.min.js"></script>
     <script src="static/js/jquery.easing.1.3.js"></script>
     <script src="static/js/tms-0.3.js"></script>
@@ -76,13 +77,27 @@ background-size: 100%;
         </nav>
     </header>   
 <!--==============================content================================-->
-
+<script type="text/javascript">
+<!--
+padding = "5";
+width = "300px";
+bgColor = "#FDFDFD";
+linkColor = "#006DA3";
+textColorA = "#0099CC";
+textColorB = "#87888A";
+border = "1px solid #DDDDDD";
+textFont = "12px Arial, Helvetica, Sans serif";
+ //-->
+</script>
+<script language="javascript" src="http://www.resultados-futbol.com/scripts/api/api.php?key=b91f1121d2cf5856e1e95c5e46fc3f7a&format=widget&req=w_tables&completed=1&category=1&grated=1&extra=logo&comments=1"></script>
+<a target="_blank" style="margin-left:110px;font-size:10px;color:#006DA3;" href="http://www.resultados-futbol.com/">Resultados de F&uacute;tbol</a>
+    
    
 <!--==============================footer=================================-->
     <footer>
         <p>© 2016 Resultados Futbol</p>
         <p><a rel="nofollow" href="http://www.resultados-futbol.com/" class="link" target="_blank"> By Resultados Futbol</a></p>
-		<p>Gracias por su colaboracion <a href= target="_blank"></a></p>
+		
     </footer>	
 </div>    
 <script>
