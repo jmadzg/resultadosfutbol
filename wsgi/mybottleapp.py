@@ -7,17 +7,27 @@ import bottle
 application=default_app()
 
 
-
-
-
-
-
-
-
 @route('/')
 def buscar():
-	return template('index.tpl')
+	return template('index')
 
+
+
+@get('/bbva')
+def bbva():
+    return template('bbva')
+
+@route('/bbva/clasificaciones')
+def clasif_bbva():
+	parametros_bbva = {'key':'6ae96db918c2f299ae2f3eaf752594dd','format':'json','league':'1','req':'tables'}
+	r = requests.get("http://www.resultados-futbol.com/scripts/api/api.php", params=parametros_bbva)
+	datos = json.loads(r.text.encode("utf-8"))
+	return template('clasificaciones',datos=datos)
+
+    
+@get('/adelante')
+def adelante():
+	return template('adelante')
 
 
 
